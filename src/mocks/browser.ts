@@ -1,0 +1,10 @@
+import { setupWorker } from 'msw'
+
+import { handlers } from './handlers'
+
+function init() {
+  const worker = setupWorker(...handlers)
+  worker.start()
+}
+
+init()
