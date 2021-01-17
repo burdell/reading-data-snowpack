@@ -1,5 +1,7 @@
 import React from 'react'
 
 export function Header() {
-  return <header>What Did Nathan Read?</header>
+  return (
+    <header className="underline text-5xl p-9">What Did Nathan Read?</header>
+  )
 }

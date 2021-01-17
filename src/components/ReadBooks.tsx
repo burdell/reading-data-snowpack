@@ -17,7 +17,7 @@ export function ReadBooks() {
   }, [])
 
   return (
-    <div>
+    <div className="w-2/3 mx-auto my-0">
       {books.map((book) => (
         <div key={book.id}>
           <Book book={book} />

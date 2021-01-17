@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 
 import { App } from '~/components/App'
 
-import '~/styles/reset.css'
+// import '~/styles/reset.css'
 import '~/styles/site.css'
 
 ReactDOM.render(

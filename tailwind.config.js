@@ -3,7 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      sans: ['Comic Sans', 'sans-serif'],
+      sans: ['Josefin Sans', 'sans-serif'],
       serif: ['Merriweather', 'serif']
     }
   },

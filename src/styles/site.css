@@ -1,4 +1,6 @@
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   margin: 0;
@@ -9,10 +11,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-header {
-  font-size: 4rem;
-  padding: 2rem;
-  text-decoration: underline;
 }
